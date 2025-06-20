@@ -21,6 +21,10 @@ This is a Laravel-based Reimbursement Management System.
 -Open terminal
 composer install
 
+-Copy .env File and Generate App Key
+cp .env.example .env
+php artisan key:generate
+
 -Configurasi .env
 
     APP_NAME=Laravel
