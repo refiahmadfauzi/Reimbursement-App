@@ -19,11 +19,13 @@ This is a Laravel-based Reimbursement Management System.
 ### 1. BE Laravel
 
 -Open terminal
-composer install
+
+    composer install
 
 -Copy .env File and Generate App Key
-cp .env.example .env
-php artisan key:generate
+
+    cp .env.example .env
+    php artisan key:generate
 
 -Configurasi .env
 
@@ -41,19 +43,23 @@ php artisan key:generate
     DB_PASSWORD=
 
 -Run Database Migration
-php artisan migrate
+
+    php artisan migrate
 
 -Start Laravel Server
-php artisan serve
+
+    php artisan serve
 
 -Open New Terminal for Laravel Queue Checking
-php artisan queue:work
+
+    php artisan queue:work
 
 ### 2. FE Vue3/Vite
 
 -Open Terminal
-npm install
-npm run dev
+
+    npm install
+    npm run dev
 
 ### 2. Colection Postman
 
