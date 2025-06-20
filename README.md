@@ -75,3 +75,8 @@ This is a Laravel-based Reimbursement Management System.
     -Disetiap request yang perlu token, Buka Authorization Auth Type Bearer Token
     -Masukan Token dari token login
     -Klik Save
+
+Silahkan Tambahkan Usernya terlebih dahulu lewat Postman
+Bisa menggunakan yang Register atau pun yang user -> add
+
+Enjoy
