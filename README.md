@@ -53,15 +53,15 @@ npm run dev
 
 ### 2. Colection Postman
 
--Open Postman
--Klik Import
--Pilih tab "File"
--Klik "Upload Files" lalu pilih file .json Postman-mu
--Klik "Import"
--Jika collection kamu menggunakan variable seperti {{base_url}}, kamu juga perlu:
--Klik Folder Reimbursement API lalu klik Variables
--Masukkan variable misalnya:
-base_url = http://127.0.0.1:8000/
--Disetiap request yang perlu token, Buka Authorization Auth Type Bearer Token
--Masukan Token dari token login
--Klik Save
+    -Open Postman
+    -Klik Import
+    -Pilih tab "File"
+    -Klik "Upload Files" lalu pilih file .json Postman-mu
+    -Klik "Import"
+    -Jika collection kamu menggunakan variable seperti {{base_url}}, kamu juga perlu:
+    -Klik Folder Reimbursement API lalu klik Variables
+    -Masukkan variable misalnya:
+    base_url = http://127.0.0.1:8000/
+    -Disetiap request yang perlu token, Buka Authorization Auth Type Bearer Token
+    -Masukan Token dari token login
+    -Klik Save
